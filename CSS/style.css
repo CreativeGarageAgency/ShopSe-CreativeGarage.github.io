@@ -6,27 +6,32 @@
 }
 
 @font-face {
-    font-family: QuickSand_Bold;
-    src: url('../Fonts/Quicksand-Bold.ttf');
+    font-family: NeoSans_Bold;
+    src: url('../Fonts/neo_sans_bold.ttf');
 }
 
 @font-face {
-    font-family: QucikSand_SemiBold;
-    src: url('../Fonts/Quicksand-SemiBold.ttf');
+    font-family: Gotham_Black;
+    src: url('../Fonts/Gotham_Black.ttf');
 }
 
 @font-face {
-    font-family: QuickSand__Medium;
-    src: url('../Fonts/Quicksand-Medium.ttf');
+    font-family: Gotham_Medium;
+    src: url('../Fonts/GothamMedium.ttf');
 }
 
 @font-face {
-    font-family: QuickSand_Regular;
-    src: url('../Fonts/Quicksand-Regular.ttf');
+    font-family: NeoSans_Italic;
+    src: url('../Fonts/Neo_Sans_Italic.ttf');
 }
 
 body, html {
     overflow-x: hidden;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
 .Navbar-Brand {
@@ -52,16 +57,15 @@ body, html {
 }
 
 .Banner-section h1 {
-    font-family: 'QuickSand_Bold';
+    font-family: 'Gotham_Black';
     color: white;
     letter-spacing: 0.03em;
     font-size: calc(32pt + 0.15vw);
     text-transform: uppercase;
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15), 0 30px 20px rgba(0, 0, 0, .1);
 }
 
 .Banner-section h2 {
-    font-family: 'QucikSand_SemiBold';
+    font-family: 'Gotham_Medium';
     color: white;
     letter-spacing: 0.03em;
     font-size: calc(22pt + 0.15vw);
@@ -69,7 +73,7 @@ body, html {
 }
 
 .Banner-section h4 {
-    font-family: 'QuickSand__Medium';
+    font-family: 'Gotham_Medium';
     color: #23B030;
     letter-spacing: 0.03em;
     line-height: 1.6195;
@@ -88,7 +92,7 @@ body, html {
     -o-border-radius: 20px;
     -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    font-family: 'QuickSand_Regular';
+    font-family: 'NeoSans_Italic';
     letter-spacing: 0.03em;
     font-size: calc(12pt + 0.15vw);
 }
@@ -102,7 +106,7 @@ body, html {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    font-family: 'QuickSand_Regular';
+    font-family: 'Gotham_Medium';
     letter-spacing: 0.03em;
     background-color: #23B030;
     color: #fff;
@@ -166,7 +170,7 @@ body, html {
 
 .searh-records-section h2 {
     color: #3A1799;
-    font-family: 'QucikSand_SemiBold';
+    font-family: 'NeoSans_Bold';
     letter-spacing: 0.03em;
     font-size: calc(22pt + 0.15vw);
 }
@@ -183,7 +187,7 @@ body, html {
     -o-border-radius: 20px;
     -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    font-family: 'QuickSand_Regular';
+    font-family: 'NeoSans_Italic';
     letter-spacing: 0.03em;
     font-size: calc(12pt + 0.15vw);
 }
@@ -213,7 +217,7 @@ body, html {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    font-family: 'QuickSand_Regular';
+    font-family: 'Gotham_Medium';
     letter-spacing: 0.03em;
     background-color: #3A1799;
     color: #fff;
@@ -270,17 +274,14 @@ body, html {
 }
 
 .Brands-Section {
-    background-image: url('../Assets/Client Background/5566882-02.jpg');
-    /* background-repeat: no-repeat; */
-    background-size: cover;
     width: 100vw;
-    padding: 110px 0px 110px 0px;
+    padding: 40px 0px 40px 0px;
     height: auto;
 }
 
 .Brands-Section h2 {
     color: #3A1799;
-    font-family: 'QucikSand_SemiBold';
+    font-family: 'NeoSans_Bold';
     letter-spacing: 0.03em;
     font-size: calc(22pt + 0.15vw);
 }
@@ -333,7 +334,7 @@ body, html {
 }
 
 .Marquee-tag img {
-    width: 70%;
+    width: 65%;
 }
 
 .Marquee-tag:hover {
@@ -386,13 +387,12 @@ body, html {
     text-align: center;
 }
 
-.eligibility-section h2 {
-    font-family: 'QuickSand_Bold';
+.eligibility-section h3 {
+    font-family: 'Gotham_Black';
     color: white;
     letter-spacing: 0.03em;
-    font-size: calc(22pt + 0.15vw);
+    font-size: calc(18pt + 0.15vw);
     text-transform: uppercase;
-    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .eligibility-section form input {
@@ -406,7 +406,7 @@ body, html {
     -o-border-radius: 20px;
     -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    font-family: 'QuickSand_Regular';
+    font-family: 'NeoSans_Italic';
     letter-spacing: 0.03em;
     font-size: calc(12pt + 0.15vw);
 }
@@ -420,7 +420,7 @@ body, html {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    font-family: 'QuickSand_Regular';
+    font-family: 'Gotham_Medium';
     letter-spacing: 0.03em;
     background-color: #23B030;
     color: #fff;
@@ -448,13 +448,11 @@ body, html {
 
 .bank-partners-section {
     text-align: center;
-    padding: 110px 0px 40px 0px;
-    background-image: url('../Assets/Client Background/5566882-02.jpg');
-    background-size: cover;
+    padding: 40px 0px 40px 0px;
 }
 
 .bank-partners-section h2 {
-    font-family: 'QuickSand_Bold';
+    font-family: 'NeoSans_Bold';
     color: #3A1799;
     letter-spacing: 0.03em;
     font-size: calc(22pt + 0.15vw);
@@ -508,7 +506,7 @@ body, html {
 }
 
 .Marquee-tag-2 img {
-    width: 70%;
+    width: 65%;
 }
 
 .Marquee-tag-2:hover {
@@ -577,5 +575,20 @@ body, html {
 @media screen and (max-width: 538px) {
     h2 {
         font-size: calc(18pt + 0.15vw) !important;
+    }
+    .Banner-section h4 {
+        font-size: calc(12pt + 0.15vw) !important;
+    }
+    .Banner-section h1 {
+        font-size: calc(28pt + 0.15vw) !important;
+    }
+    .Marquee-tag {
+        width: 145px !important;
+    }
+    .Marquee-tag-2 {
+        width: 145px !important;
+    }
+    .eligibility-section h3 {
+        font-size: calc(14pt + 0.15vw) !important;
     }
 }
